@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/staticpublisher",
+	"name": "andrelohmann-silverstripe/staticpublisher",
 	"description":  "StaticPublisher provides an extensions for exporting a SilverStripe application to either a local or remote file systems.",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe-labs", "static", "export", "publisher"],
@@ -9,8 +9,13 @@
 	},{
 		"name": "Sam Minnee",
 		"email": "sam@silverstripe.com"
-	}],
+	},
+        {
+                "name": "Andre Lohmann",
+                "homepage": "https://github.com/andrelohmann"
+        }],
 	"require": {
-		"silverstripe/framework": "~3.1"
-	}
+		"php": ">=5.3.2",
+		"composer/installers": "*"
+        }    
 }
